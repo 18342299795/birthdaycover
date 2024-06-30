@@ -118,11 +118,11 @@ $('document').ready(function(){
 		loopFive();
 		loopSix();
 		loopSeven();
-		
+
 		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#cake_fadein').fadeIn('slow');
 		});
-	});	
+	});
 
 	$('#cake_fadein').click(function(){
 		$('.cake').fadeIn('slow');
@@ -134,11 +134,17 @@ $('document').ready(function(){
 	$('#light_candle').click(function(){
 		$('.fuego').fadeIn('slow');
 		$(this).fadeOut('slow').promise().done(function(){
+			$('#girl_wish').fadeIn('slow');
+		});
+	});
+
+	$('#girl_wish').click(function(){
+		//$('.fuego').fadeIn('slow');
+		$(this).fadeOut('slow').promise().done(function(){
 			$('#wish_message').fadeIn('slow');
 		});
 	});
 
-		
 	$('#wish_message').click(function(){
 		 vw = $(window).width()/2;
 
@@ -163,13 +169,13 @@ $('document').ready(function(){
 			$('#story').fadeIn('slow');
 		});
 	});
-	
+
 	$('#story').click(function(){
 		$(this).fadeOut('slow');
 		$('.cake').fadeOut('fast').promise().done(function(){
 			$('.message').fadeIn('slow');
 		});
-		
+
 		var i;
 
 		function msgLoop (i) {
@@ -180,18 +186,18 @@ $('document').ready(function(){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
 				});
-				
+
 			}
 			else{
 				msgLoop(i);
-			}			
+			}
 
 		});
 			// body...
 		}
-		
+
 		msgLoop(0);
-		
+
 	});
 });
 
