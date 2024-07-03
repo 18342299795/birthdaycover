@@ -14,8 +14,8 @@ var config = {
         "再次与你相爱",
         "我会守住这份幸运",
         "继续下一个十年",
-        "我和多多宝子",
-        "祝老婆生日快乐",
+        "纪猪猪和刘傻多",
+        "祝老婆生日快乐，永远开心",
         "多多：汪汪汪汪",
     ],
     /**
@@ -30,8 +30,8 @@ var config = {
     imgs: {
         "心爱的老婆": "./imgs/laopo.jpg",
         "今天是你的生日": "./imgs/birthday.jpg",
-        "这是我们认识的",
-        "第十年",
+        "这是我们认识的": "./imgs/paper.jpg",
+        "第十年": "./imgs/hand.jpg",
         "是我们相爱的": "./imgs/falllove.jpg",
         "第852天": "./imgs/day852.jpg",
         "时间白驹过隙": "./imgs/longroad.jpg",
@@ -53,8 +53,8 @@ var config = {
         balloons_flying: "好像少点东西？",
         cake_fadein: "蛋糕？",
         light_candle: "蜡烛？",
-        we_family: "当然还有我们！",
-        girl_wish: "许个愿望吧",
+        //we_family: "当然还有我们！",
+        //girl_wish: "许个愿望吧",
         wish_message: "生日快乐",
         story: "A MESSAGE FOR YOU",
     }
